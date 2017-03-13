@@ -98,6 +98,23 @@ img {
   padding-top: 4rem;
 }
 
+
+#main-footer {
+  background: #262f36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem;
+}
+
+#main-footer h6 {
+  color: #718FA9;
+}
+
+#main-footer a {
+  color: #6c6f73;
+}
+
+
 @media screen and ( min-width : 991px) {
 
 .feature-content {
