@@ -35,6 +35,14 @@ img {
   margin: 1rem 0 0;
 }
 
+.button2 {
+  color: white !important;
+}
+
+.button2:hover {
+  color: green !important;
+}
+
 #stage {
   background: url("img/stage.jpg") center center;
   background-repeat: no-repeat;
@@ -84,6 +92,10 @@ img {
 
 #feature-four .feature-content{
   padding: 0;
+}
+
+#feature-five img {
+  padding-top: 4rem;
 }
 
 @media screen and ( min-width : 991px) {
