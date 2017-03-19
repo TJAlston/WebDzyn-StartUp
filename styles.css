@@ -124,10 +124,6 @@ img {
   color: #000;
 }
 
-.tjImage {
-  vertical-align: bottom;
-}
-
 @media screen and ( min-width : 991px) {
 
 .feature-content {
@@ -144,6 +140,15 @@ img {
   }
 
   .creativeQuote {
-    margin-top: -10rem;
+    margin-top: -350px;
+    margin-bottom: 300px;
+  }
+}
+
+
+@media screen and (max-width : 767px) {
+
+  .creativeQuote {
+    margin: 0 auto;
   }
 }
