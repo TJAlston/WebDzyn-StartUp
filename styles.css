@@ -124,6 +124,9 @@ img {
   color: #000;
 }
 
+.tjImage {
+  vertical-align: bottom;
+}
 
 @media screen and ( min-width : 991px) {
 
@@ -132,4 +135,15 @@ img {
   align-items: center;
 }
 
+}
+
+@media screen and (max-width : 991px) {
+
+  .tjImage {
+    margin-bottom: -5rem;
+  }
+
+  .creativeQuote {
+    margin-top: -10rem;
+  }
 }
