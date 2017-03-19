@@ -40,7 +40,17 @@ img {
 }
 
 .button2:hover {
-  color: green !important;
+  color: #1578af !important;
+}
+
+.btn-blue {
+  background-color: #1578af !important;
+  color: white;
+}
+
+.btn-pink {
+  background-color: #c070ad !important;
+  color: white;
 }
 
 #stage {
@@ -78,7 +88,7 @@ img {
 }
 
 .feature-dark {
-  background: #262F36;
+  background: #939598;
   color: white;
 }
 
