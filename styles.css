@@ -159,6 +159,9 @@ img {
   color: white;
 }
 
+.splat {
+  margin-top: -15rem;
+}
 @media screen and ( min-width : 991px) {
 
 .feature-content {
