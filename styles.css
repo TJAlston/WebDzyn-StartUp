@@ -41,6 +41,8 @@ img {
 
 .button2:hover {
   color: #1578af !important;
+  background-color: white !important;
+  border-color: #1578af;
 }
 
 .btn-blue {
