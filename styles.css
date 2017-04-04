@@ -169,6 +169,15 @@ img {
   padding-bottom: 1rem;
 }
 
+.num {
+  padding-top: 15px;
+  /*padding-bottom: -15px !important;*/
+}
+
+.navbar-right {
+  padding-top: 7px;
+}
+
 @media screen and ( min-width : 991px) {
 
 .feature-content {
