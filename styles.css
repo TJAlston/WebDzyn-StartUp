@@ -163,6 +163,12 @@ img {
 .splat {
   margin-top: -15rem;
 }
+
+
+.pfimage {
+  padding-bottom: 8rem;
+}
+
 @media screen and ( min-width : 991px) {
 
 .feature-content {
