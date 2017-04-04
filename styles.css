@@ -86,7 +86,7 @@ img {
 }
 
 .feature-content img {
-  margin-bottom: -8rem;
+  margin-bottom: 0rem;
 }
 
 .feature-dark {
@@ -165,8 +165,8 @@ img {
 }
 
 
-.pfimage, .iphone {
-  padding-bottom: 8rem;
+.pfimage .iphone {
+  padding-bottom: 1rem;
 }
 
 @media screen and ( min-width : 991px) {
