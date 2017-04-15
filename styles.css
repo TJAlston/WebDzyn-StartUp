@@ -160,10 +160,15 @@ img {
   color: white;
 }
 
-.splat {
-  margin-top: -15rem;
+.splat1 {
+  margin-top: -10rem;
+  margin-bottom: -3rem !important;
 }
 
+.splat3 {
+  padding: 0 !important;
+  margin-bottom: -2rem !important;
+}
 
 .pfimage .iphone {
   padding-bottom: 1rem;
