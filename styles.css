@@ -170,6 +170,11 @@ img {
   margin-bottom: -2rem !important;
 }
 
+.splatter {
+  padding: 0 !important;
+  margin-bottom: -5rem !important;
+}
+
 .pfimage .iphone {
   padding-bottom: 1rem;
 }
@@ -192,7 +197,7 @@ img {
 
 }
 
-@media screen and (max-width : 991px) {
+@media screen and (max-width : 990px) {
 
   .tjImage {
     margin-bottom: -5rem;
@@ -210,4 +215,10 @@ img {
   .creativeQuote {
     margin: 0 auto;
   }
+}
+
+@media screen and (max-width: 563px) {
+
+  .splat1, .splat3 {
+    margin-right: -50rem;
 }
