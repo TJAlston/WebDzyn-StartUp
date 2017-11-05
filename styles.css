@@ -24,6 +24,17 @@ img {
   max-width: 100%;
 }
 
+/*NAVBAR*/
+.navbar-right {
+  padding-top: 7px;
+}
+
+.navbar {
+  margin-bottom: 100px;
+}
+
+
+/*MISSION STATEMENT*/
 .blockquote {
   font-size: 1.6rem;
   color: #333;
@@ -55,11 +66,14 @@ img {
   color: white;
 }
 
+/*STAGE*/
+
 #stage {
-  background: url("img/4.jpg") center center;
+  background: url("img/greybackground.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding-top: 250px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -72,12 +86,36 @@ img {
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 200px;
 }
 
 #stage-caption  h1 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/*VIDEO OVERLAY*/
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+  background-color: rgba(#336ecd, 0.55);
 }
 
 .feature-content {
@@ -150,6 +188,19 @@ img {
   height: 27rem;*/
 }
 
+/*PACKAGES */
+
+.starter {
+  background-color: rgba(159, 157, 155);
+}
+.standard {
+  background-color: #c070ad;
+}
+
+.ultimate {
+  background-color: #336ECD;
+}
+
 .card > img {
   margin-bottom: .75rem;
   max-width: 100%;
@@ -175,17 +226,9 @@ img {
   margin-bottom: -5rem !important;
 }
 
-.pfimage .iphone {
-  padding-bottom: 1rem;
-}
-
 .num {
   padding-top: 15px;
   /*padding-bottom: -15px !important;*/
-}
-
-.navbar-right {
-  padding-top: 7px;
 }
 
 .carousel-fade {
